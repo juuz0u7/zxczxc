@@ -1,5 +1,16 @@
+.vc-settings-card,
+.vc-settings-quick-actions-card,
 .vc-addon-card {
-    background-color: $CardBackgroundFillColorDefault;
     border: 1px solid $CardStrokeColorDefault;
     border-radius: 4px;
+}
+
+.vc-addon-card {
+    background-color: $CardBackgroundFillColorDefault;
+}
+
+.vc-settings-card,
+.vc-settings-quick-actions-card,
+.vc-plugins-info-card {
+    background-color: $SystemFillColorNeutralBackground !important;
 }
