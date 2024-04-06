@@ -54,4 +54,10 @@
             border-radius: 50%;
         }
     }
+
+    // Profile badges
+    [class^="profileBadges"] {
+        flex: none;
+        background-color: var(--profile-body-background-color);
+    }
 }
